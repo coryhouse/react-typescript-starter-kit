@@ -1,0 +1,28 @@
+{
+  "name": "React-TypeScript-Starter",
+  "version": "0.0.0",
+  "description": "An example/starter project for using React and TypeScript together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austentalbot/React-TypeScript-Starter.git"
+  },
+  "author": "Austen Talbot <austentalbot@gmail.com> (http://austentalbot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austentalbot/React-TypeScript-Starter/issues"
+  },
+  "homepage": "https://github.com/austentalbot/React-TypeScript-Starter",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.7.8",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
