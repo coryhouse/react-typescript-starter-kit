@@ -1,5 +1,6 @@
 /// <reference path='../typings/react/react.d.ts' />
 import React = require('react');
+import ReactDOM = require('react-dom');
 
 interface P {
   name?: string;
@@ -29,4 +30,4 @@ class Goal extends React.Component<P, S> {
   }
 }
 
-React.render(<Goal name="Learn React and TypeScript" />, document.getElementById('react'));
+ReactDOM.render(<Goal name="Learn React and TypeScript" />, document.getElementById('react'));

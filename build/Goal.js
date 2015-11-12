@@ -5,6 +5,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 /// <reference path='../typings/react/react.d.ts' />
 var React = require('react');
+var ReactDOM = require('react-dom');
 var Goal = (function (_super) {
     __extends(Goal, _super);
     function Goal() {
@@ -23,4 +24,4 @@ var Goal = (function (_super) {
     };
     return Goal;
 })(React.Component);
-React.render(React.createElement(Goal, {"name": "Learn React and TypeScript"}), document.getElementById('react'));
+ReactDOM.render(React.createElement(Goal, {"name": "Learn React and TypeScript"}), document.getElementById('react'));
